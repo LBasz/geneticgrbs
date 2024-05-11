@@ -108,10 +108,15 @@ tau_max = 56.8
 
 
 ### Running the GA optimization
-#TODO
 ```bash
 # move to the right directory
 cd ./genetic_algorithm
+# set the `user` variable (`geneticgrbs.py`, line 41; `avalanche.py`, `statistical_test.py`)
+user={'bach','gravity'}
+# set the `instrument` variable (`geneticgrbs.py`, line 98)
+instrument={'batse','swift'}
+# set the parameters of the model (`geneticgrbs.py`)
+{'num_generations','N_grb','range_PARAMS', etc.}
 # activate the conda env
 conda activate pygad3
 # run the GA
@@ -125,12 +130,20 @@ If you have any question or you are interested in contributing do not hesitate t
 
 Please cite the following associated paper if you use this code in your work:
 ```
-@article{,
-  title={},
-  author={},
-  journal={},
-  pages={},
-  year={},
-  publisher={}
+@ARTICLE{2024arXiv240318754B,
+       author = {{Bazzanini}, Lorenzo and {Ferro}, Lisa and {Guidorzi}, Cristiano and {Angora}, Giuseppe and {Amati}, Lorenzo and {Brescia}, Massimo and {Bulla}, Mattia and {Frontera}, Filippo and {Maccary}, Romain and {Maistrello}, Manuele and {Rosati}, Piero and {Tsvetkova}, Anastasia},
+        title = "{Long gamma-ray burst light curves as the result of a common stochastic pulse-avalanche process}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Instrumentation and Methods for Astrophysics},
+         year = 2024,
+        month = mar,
+          eid = {arXiv:2403.18754},
+        pages = {arXiv:2403.18754},
+          doi = {10.48550/arXiv.2403.18754},
+archivePrefix = {arXiv},
+       eprint = {2403.18754},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240318754B},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
