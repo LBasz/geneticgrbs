@@ -1,6 +1,6 @@
 # GeneticGRBs
 
-This repository contains the Python code that implements a Genetic Algorithm (GA) for the optimization of the seven parameters of the [Stern & Svensson (1996)](https://iopscience.iop.org/article/10.1086/310267) (SS96) stochastic pulse avalanche model, for the generation of simulated gamma-ray burst (GRB) light curves (LCs), developed in [this paper]() ([arXiv version](https://arxiv.org/abs/2403.18754)).
+This repository contains the Python code that implements a Genetic Algorithm (GA) for the optimization of the seven parameters of the [Stern & Svensson (1996)](https://iopscience.iop.org/article/10.1086/310267) (SS96) stochastic pulse avalanche model, for the generation of simulated gamma-ray burst (GRB) light curves (LCs), developed in [this paper](https://www.aanda.org/articles/aa/full_html/2024/09/aa50150-24/aa50150-24.html) ([arXiv version](https://arxiv.org/abs/2403.18754)).
 
 - _Reference Paper_: [Long gamma-ray burst light curves as the result of a common stochastic pulse-avalanche process]().
 
@@ -130,20 +130,21 @@ If you have any question or you are interested in contributing do not hesitate t
 
 Please cite the following associated paper if you use this code in your work:
 ```
-@ARTICLE{2024arXiv240318754B,
-       author = {{Bazzanini}, Lorenzo and {Ferro}, Lisa and {Guidorzi}, Cristiano and {Angora}, Giuseppe and {Amati}, Lorenzo and {Brescia}, Massimo and {Bulla}, Mattia and {Frontera}, Filippo and {Maccary}, Romain and {Maistrello}, Manuele and {Rosati}, Piero and {Tsvetkova}, Anastasia},
-        title = "{Long gamma-ray burst light curves as the result of a common stochastic pulse-avalanche process}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Instrumentation and Methods for Astrophysics},
+@ARTICLE{2024A&A...689A.266B,
+       author = {{Bazzanini}, L. and {Ferro}, L. and {Guidorzi}, C. and {Angora}, G. and {Amati}, L. and {Brescia}, M. and {Bulla}, M. and {Frontera}, F. and {Maccary}, R. and {Maistrello}, M. and {Rosati}, P. and {Tsvetkova}, A.},
+        title = "{Long gamma-ray burst light curves as the result of a common stochastic pulse{\textendash}avalanche process}",
+      journal = {\aap},
+     keywords = {methods: statistical, gamma-ray burst: general, Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Instrumentation and Methods for Astrophysics},
          year = 2024,
-        month = mar,
-          eid = {arXiv:2403.18754},
-        pages = {arXiv:2403.18754},
-          doi = {10.48550/arXiv.2403.18754},
+        month = sep,
+       volume = {689},
+          eid = {A266},
+        pages = {A266},
+          doi = {10.1051/0004-6361/202450150},
 archivePrefix = {arXiv},
        eprint = {2403.18754},
  primaryClass = {astro-ph.HE},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240318754B},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024A&A...689A.266B},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
